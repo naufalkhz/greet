@@ -6,27 +6,27 @@ type Person struct {
 	Hobby string
 }
 
-func (p Person) toString() string {
+func (p Person) ToString() string {
 	return ("Hallo nama saya " + p.Name + ", Hobi saya adalah " + p.Hobby)
 }
 
-func (p *Person) setNama(name string) {
+func (p *Person) SetNama(name string) {
 	p.Name = name
 }
-func (p *Person) setHobby(hobby string) {
+func (p *Person) SetHobby(hobby string) {
 	p.Hobby = hobby
 }
-func (p *Person) setId(id int) {
+func (p *Person) SetId(id int) {
 	p.ID = id
 }
 
-func (p Person) getNama() string {
+func (p Person) GetNama() string {
 	return p.Name
 }
-func (p Person) getId() int {
+func (p Person) GetId() int {
 	return p.ID
 }
-func (p Person) getHobby() string {
+func (p Person) GetHobby() string {
 	return p.Hobby
 }
 
