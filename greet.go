@@ -1,4 +1,4 @@
-package main
+package greet
 
 type Person struct {
 	ID    int
